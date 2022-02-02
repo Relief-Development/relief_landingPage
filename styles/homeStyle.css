@@ -17,28 +17,65 @@
 		width: 12px;
 	}
 
-	#ios{
-        width: 276px;
-	    margin-bottom: 9px;
-	    background-color: white;
-	    border: solid black 5px;
-	    height: 58px;
-	}
+#ios{
+    width: 276px;
+    margin-bottom: 9px;
+    background-color: white;
+    border: solid black 5px;
+    height: 58px;
+}
 
-	#android{
-        width: 260px;
-	    margin-left: 59px;
-	    margin-bottom: 9px;
-	    background-color: white;
-	    height: 58px;
-	    border: solid black 5px;
-	}
+#android{
+    width: 260px;
+    margin-left: 59px;
+    margin-bottom: 9px;
+    background-color: white;
+    height: 58px;
+    border: solid black 5px;
+}
 
-	footer{
-		display: inline-block;
-	}
+footer{
+	display: inline-block;
+}
 
-	body{
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
+body{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#header{
+	height: 261px;
+	width: 101%;
+	background-color: #806142;
+	margin-left: -10px;
+    margin-top: -10px;
+
+}
+
+
+#logo{
+	margin-top: 51px;
+    margin-left: 33px;
+	height: 134px;
+	width: 156px;
+}
+
+#tittleHead{
+
+	display: inline-block;
+    margin-left: 20px;
+    font-family: 'Signpainter' , cursive, 'serif';
+    font-weight: lighter;
+    font-size: 70px;
+    color: #F6C289;
+}
+
+
+
+
+
+
+
+
+
