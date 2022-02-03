@@ -1,0 +1,56 @@
+body {
+    background-color: #9EF5F4;
+    color: blueviolet;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    font-size: 20px;
+    background-color: 9EF5F4;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    font-family: 'Signpainter', cursive, 'serif';
+}
+
+#stores {
+    position: relative;
+    text-align: center;
+    background-color: azure;
+    left: 290%;
+    top: 10%;
+}
+
+#logo {
+    height: 140px;
+}
+
+#tittleHead {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Signpainter', cursive, 'serif';
+    font-size: 60px;
+    color: #9EF5F4;
+}
+
+#footerState {
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F6C289;
+    font-weight: 700;
+}
+
+#footerState:hover {
+    cursor: pointer;
+}
