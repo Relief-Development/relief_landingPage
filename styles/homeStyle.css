@@ -1,81 +1,56 @@
-
-
-.bloquevacio{
-	    background-color: floralwhite;
-	    width: 77%;
-	    border: black solid 3px;
-	    border-radius: 34px;
-	    margin-left: 179px;
-	    padding: 10px;
-	    font-family: 'Amatic SC', cursive, 'serif';
-	    padding-left: 48px;
-        font-size: 20px;
-	}
-
-
-.copyright	{
-		width: 12px;
-	}
-
-#ios{
-    width: 276px;
-    margin-bottom: 9px;
-    background-color: white;
-    border: solid black 5px;
-    height: 58px;
+body {
+    background-color: #9EF5F4;
+    color: blueviolet;
 }
 
-#android{
-    width: 260px;
-    margin-left: 59px;
-    margin-bottom: 9px;
-    background-color: white;
-    height: 58px;
-    border: solid black 5px;
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
-footer{
-	display: inline-block;
+.navbar {
+    font-size: 20px;
+    background-color: 9EF5F4;
 }
 
-body{
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+.navbar-brand {
+    margin-left: 40px;
+    font-family: 'Signpainter', cursive, 'serif';
 }
 
-
-#header{
-	height: 261px;
-	width: 101%;
-	background-color: #806142;
-	margin-left: -10px;
-    margin-top: -10px;
-
+#stores {
+    position: relative;
+    text-align: center;
+    background-color: azure;
+    left: 290%;
+    top: 10%;
 }
 
-
-#logo{
-	margin-top: 51px;
-    margin-left: 33px;
-	height: 134px;
-	width: 156px;
+#logo {
+    height: 140px;
 }
 
-#tittleHead{
-
-	display: inline-block;
+#tittleHead {
+    display: inline-block;
     margin-left: 20px;
-    font-family: 'Signpainter' , cursive, 'serif';
-    font-weight: lighter;
-    font-size: 70px;
-    color: #F6C289;
+    font-family: 'Signpainter', cursive, 'serif';
+    font-size: 60px;
+    color: #9EF5F4;
 }
 
+#footerState {
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F6C289;
+    font-weight: 700;
+}
 
-
-
-
-
-
-
-
+#footerState:hover {
+    cursor: pointer;
+}
