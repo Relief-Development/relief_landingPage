@@ -1,32 +1,64 @@
 body {
-    background-color: #9EF5F4;
-    color: blueviolet;
+    background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);
 }
 
 footer {
     position: fixed;
-    height: 50px;
+    height: 35px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    background-color: #7C5E40;
 }
 
 .navbar {
     font-size: 20px;
-    background-color: #9EF5F4;
+    background-color: #00928F;
+}
+.nav-link{
+    font-size: 25px;
+    color: #f6c289;
+}
+.navbar-nav{
+    position: absolute;
+    right: 5%;
+}
+.me-5.d-none.d-lg-block,.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,.text-uppercase.fw-bold.mb-4,.text-reset,.text-center.p-4{
+    color: white;
+    text-decoration: none;
 }
 
 .navbar-brand {
+    color: #f6c289;
     margin-left: 40px;
-    font-size: 60px !important;
+    font-size: 90px !important;
     font-family: 'Signpainter', cursive, 'serif';
 }
-
-#stores {
-    position: relative;
-    left: 290%;
+.navbar-brand:hover{
+    color: #7C5E40;
+    text-shadow: 5px 5px 8px #f6c289;
 }
+.nav-link:hover{
+    color: #7C5E40;
+}
+#stores {
+   text-align: center;
+   /*background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);*/
+}
+#android:hover{
+    cursor: not-allowed;    
+}
+#ios:hover{
+    cursor: pointer;
+}
+
+#imageProfile{
+    margin: 80px;
+    width: 300px;
+    height: 600px;
+}
+
 #logo {
     height: 140px;
 }
@@ -48,8 +80,10 @@ footer {
     margin: 0 auto;
     border-radius: 20px;
     text-align: center;
-    background-color: #F6C289;
+    color: #7C5E40;
+    background-color: #f6c289;
     font-weight: 700;
+    margin-top: 5px;
 }
 
 #footerState:hover {

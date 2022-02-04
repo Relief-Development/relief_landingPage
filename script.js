@@ -5,7 +5,7 @@ function changeFooterState() {
 
     if (test == 1) {
 
-        footer.style.height = "50px";
+        footer.style.height = "35px";
         test = 0;
     } else {
         footer.style.height = "440px";
