@@ -46,8 +46,18 @@ footer {
 }
 #stores {
    text-align: center;
+   margin-top: 44%;
+   
    
 }
+
+#storesText{
+    display: -webkit-inline-box;
+    font-family: 'Signpainter', cursive, 'serif';
+    color: #14928F;
+    font-size: x-large;
+}
+
 #android:hover{
     cursor: not-allowed;    
 }
@@ -55,11 +65,7 @@ footer {
     cursor: pointer;
 }
 
-#imageProfile{
-    margin: 80px;
-    width: 300px;
-    height: 600px;
-}
+
 
 #logo {
     height: 140px;
@@ -91,3 +97,20 @@ footer {
 #footerState:hover {
     cursor: pointer;
 }
+
+#cuadroInfo{
+    display: inline-block;
+    /*margin: 10%;*/
+    margin-left: 20%;
+    margin-top: 15%;
+    width: 50%;
+    background-color: #179D9A;
+    padding: 2%;
+    border-radius: 26px;
+
+}
+
+
+
+
+
