@@ -46,7 +46,8 @@ footer {
 }
 #stores {
    text-align: center;
-   margin-top: 44%;
+   /*margin-top: 44%;*/
+   margin-bottom: 2%;
    
    
 }
@@ -101,7 +102,7 @@ footer {
 #cuadroInfo{
     display: inline-block;
     /*margin: 10%;*/
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 15%;
     width: 50%;
     background-color: #179D9A;
@@ -110,6 +111,89 @@ footer {
 
 }
 
+#cuadroInfo2{
+    display: inline;
+    /* margin: 10%; */
+    margin-left: 25%;
+    /* margin-top: 15%; */
+    width: 50%;
+    background-color: #179D9A;
+    padding: 2%;
+    border-radius: 26px;
+    
+
+}
+
+/*#cuadroFoto{
+    display: inline-block;
+    /* margin: 10%; 
+    margin-left: 25%;
+    /* margin-top: 15%; 
+    width: 50%;
+    background-color: #179D9A;
+    padding: 2%;
+    border-radius: 26px;
+    border: aliceblue solid 3px;
+
+}*/
+
+#cuadroFoto {
+    display: table-caption;
+    /* margin: 10%; */
+    margin-left: 100%;
+    margin-top: 40%;
+    width: 364%;
+    background-color: #179D9A;
+    padding: 31%;
+    border-radius: 26px;
+    /*border: aliceblue solid 3px;*/
+
+}
+
+#imgTeam{
+    width: 53%;
+    border-radius: 45px;
+    margin-left: 20%;
+    border: black solid 3px;
+
+}
+
+#textoFoto {
+    display: list-item;
+    margin-left: 20%;
+
+}
+
+#textoTittle{
+    font-size: 80px;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+#cuadroMapa{
+    display: inline-block;
+    margin: 10%;
+    margin-left: 25%;
+    /*margin-top: 15%;*/
+    width: 50%;
+    background-color: #7C5E40;
+    padding: 4%;
+    border-radius: 26px;
+
+}
+
+#mapa{
+    width: 91%;
+    border-radius: 45px;
+    margin-left: 5%;
+    border: black solid 3px;
+
+}
+
+p{
+    color: #9ef5f4 ;
+}
 
 
 
