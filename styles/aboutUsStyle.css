@@ -53,7 +53,8 @@ footer {
 }
 
 #storesText{
-    display: -webkit-inline-box;
+    display: block;
+    margin-left: -2%;
     font-family: 'Signpainter', cursive, 'serif';
     color: #14928F;
     font-size: x-large;
