@@ -9,7 +9,7 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-    background-color: #7C5E40;
+    background-color: #f6c289;
 }
 
 .navbar {
@@ -83,8 +83,8 @@ footer {
     margin: 0 auto;
     border-radius: 20px;
     text-align: center;
-    color: #7C5E40;
-    background-color: #f6c289;
+    color: #f6c289;
+    background-color: #7C5E40;
     font-weight: 700;
     margin-top: 5px;
 }
