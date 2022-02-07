@@ -26,9 +26,20 @@ footer {
     position: absolute;
     right: 5%;
 }
-.me-5.d-none.d-lg-block,.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,.text-uppercase.fw-bold.mb-4,.text-reset,.text-center.p-4{
-    color: white;
+
+.text-uppercase,.fw-bold,.mb-4{
+    color: #76593bb8;
     text-decoration: none;
+}
+
+
+.me-5.d-none.d-lg-block,.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,.text-uppercase.fw-bold.mb-4,.text-reset,.text-center.p-4{
+    color: #7C5E40;
+    text-decoration: none;
+}
+
+.fab{
+    color: #7C5E40;
 }
 
 .navbar-brand {
