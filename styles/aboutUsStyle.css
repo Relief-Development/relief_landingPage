@@ -23,6 +23,8 @@ footer {
     font-size: 25px;
     color: #f6c289;
 }
+
+
 .navbar-nav{
     position: absolute;
     right: 5%;
@@ -56,6 +58,10 @@ footer {
 }
 .nav-link:hover{
     color: #7C5E40;
+}
+
+.nav-link:visited{
+    text-decoration: underline;
 }
 #stores {
    text-align: center;
@@ -179,33 +185,59 @@ footer {
 }
 
 #textoTittle{
-    font-size: 80px;
-    margin-top: 5%;
-    margin-left: 35%;
+    margin-top: 40px;
     font-weight: bold;
+    font-size: 50px;
+    font-family: 'Signpainter', cursive, 'serif';
+    color: #179D9A;
+    text-align: center;
+    text-decoration: underline;
 }
 
-#cuadroMapa{
+/*#cuadroMapa{
     display: inline-block;
     margin: 10%;
     margin-left: 25%;
-    /*margin-top: 15%;*/
+    margin-top: 15%;
     width: 50%;
     background-color: #7C5E40;
     padding: 4%;
     border-radius: 26px;
 
+}*/
+
+
+#cuadroMapa {
+    display: inline-block;
+    margin: 10%;
+    margin-left: 25%;
+    width: 46%;
+    height: 815px;
+    background-color: #f6c289;
+    padding: 4%;
+    border-radius: 26px;
+    /* border: #7C5E40 solid 1px; */
 }
 
-#mapa{
-    width: 91%;
-    border-radius: 45px;
-    margin-left: 5%;
-    border: black solid 3px;
 
+.mapacanvas{
+    overflow: hidden;
+    background: none!important;
+    height: 545px;
+    width: 719px;
+    border-radius: 10px;
+    border: 1px
+    black solid;
 }
 
-
+.textoMapa{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Signpainter', cursive, 'serif';
+    color: #7C5E40;
+    text-align: center;
+    text-decoration: underline;
+}
 
 
 
