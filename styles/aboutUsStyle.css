@@ -31,6 +31,10 @@ footer {
     text-decoration: none;
 }
 
+.fab{
+    color: wheat;
+}
+
 .navbar-brand {
     color: #f6c289;
     margin-left: 40px;
@@ -193,8 +197,10 @@ footer {
 }
 
 p{
-    color: #9ef5f4 ;
+    color: wheat ;
 }
+
+
 
 
 
