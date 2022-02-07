@@ -158,16 +158,27 @@ footer {
 }*/
 
 #cuadroFoto {
-    display: table-caption;
+    display: inline-flex;
     /* margin: 10%; */
-    margin-left: 100%;
-    margin-top: 40%;
-    width: 364%;
+    /* margin-left: 100%; */
+    /* margin-top: 40%; */
+    width: 20%;
     background-color: #179D9A;
-    padding: 31%;
+    /* padding: 31%; */
     border-radius: 26px;
-    /*border: aliceblue solid 3px;*/
+    /* border: aliceblue solid 3px;*/
+}
 
+#cuadroFoto1 {
+    display: inline-flex;
+     margin: 1%; 
+    /*margin-left: 2%;*/
+    /* margin-top: 40%; */
+    width: 17%;
+    background-color: #179D9A;
+    padding: 1%;
+    border-radius: 26px;
+    /* border: aliceblue solid 3px;*/
 }
 
 #imgTeam{
@@ -180,8 +191,8 @@ footer {
 
 #textoFoto {
     display: list-item;
-    margin-left: 20%;
-
+    margin-left: 8%;
+    margin-top: 20%;
 }
 
 #textoTittle{
