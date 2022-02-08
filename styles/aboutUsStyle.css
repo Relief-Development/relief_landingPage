@@ -18,6 +18,7 @@ footer {
     position: fixed;
     font-size: 20px;
     background-color: #00928F;
+    z-index: 100;
 }
 .nav-link{
     font-size: 25px;
@@ -65,7 +66,7 @@ footer {
 }
 #stores {
    text-align: center;
-   /*margin-top: 44%;*/
+   margin-left: 2%;
    margin-bottom: 2%;
    
    
@@ -144,18 +145,6 @@ footer {
 
 }
 
-/*#cuadroFoto{
-    display: inline-block;
-    /* margin: 10%; 
-    margin-left: 25%;
-    /* margin-top: 15%; 
-    width: 50%;
-    background-color: #179D9A;
-    padding: 2%;
-    border-radius: 26px;
-    border: aliceblue solid 3px;
-
-}*/
 
 #cuadroFoto {
     display: inline-flex;
@@ -171,10 +160,10 @@ footer {
 
 #cuadroFoto1 {
     display: inline-flex;
-     margin: 1%; 
+     margin: 36px; 
     /*margin-left: 2%;*/
     /* margin-top: 40%; */
-    width: 17%;
+    width: 16%;
     background-color: #179D9A;
     padding: 1%;
     border-radius: 26px;
@@ -183,7 +172,7 @@ footer {
 
 #imgTeam{
     width: 53%;
-    border-radius: 45px;
+    border-radius: 50%;
     margin-left: 20%;
     border: black solid 3px;
 
@@ -191,12 +180,16 @@ footer {
 
 #textoFoto {
     display: list-item;
-    margin-left: 8%;
-    margin-top: 20%;
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 150%;
+    position: absolute;
+    font-family: 'Signpainter', cursive, 'serif';
 }
 
 #textoTittle{
-    margin-top: 40px;
+    margin-top: 5%;
+    margin-bottom: -10%;
     font-weight: bold;
     font-size: 50px;
     font-family: 'Signpainter', cursive, 'serif';
@@ -204,6 +197,28 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
+
+#imgIntro{
+    margin-left: 6%;
+    margin-top: 15%;
+    width: 300px;
+    height: 600px;
+    transform: rotate(4deg);
+    position: absolute;
+    z-index: 50;
+}
+
+#textoTittle1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Signpainter', cursive, 'serif';
+    color: #179D9A;
+    text-align: center;
+    text-decoration: underline;
+}
+    
 
 /*#cuadroMapa{
     display: inline-block;
@@ -221,10 +236,10 @@ footer {
 #cuadroMapa {
     display: inline-block;
     margin: 10%;
-    margin-left: 25%;
+    margin-left: 27%;
     width: 46%;
     height: 815px;
-    background-color: #f6c289;
+    /*background-color: #f6c289;*/
     padding: 4%;
     border-radius: 26px;
     /* border: #7C5E40 solid 1px; */

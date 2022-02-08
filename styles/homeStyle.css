@@ -17,6 +17,7 @@ footer {
     position: fixed;
     font-size: 20px;
     background-color: #00928F;
+    z-index: 100;
 }
 .nav-link{
     font-size: 25px;
