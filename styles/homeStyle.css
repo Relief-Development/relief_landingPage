@@ -24,6 +24,21 @@ footer {
     font-size: 25px;
     color: #f6c289;
 }
+
+.nav-link.navText{
+    font-size: 35px;
+    color: #9ef5f4;
+    margin: 0 auto;
+    cursor: none;
+    font-family: 'Signpainter', cursive, 'serif';
+}
+
+.nav-link.navText:hover{
+    color: #9ef5f4;
+    font-size: 45px;
+
+}
+
 .navbar-nav{
     position: absolute;
     right: 5%;
