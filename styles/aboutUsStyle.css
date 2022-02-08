@@ -10,6 +10,7 @@ footer {
     right: 0px;
     margin-bottom: 0px;
     background-color: #f6c289;
+    z-index: 100;
     
 }
 
@@ -129,6 +130,7 @@ footer {
     background-color: #179D9A;
     padding: 2%;
     border-radius: 26px;
+    border: black solid 2px;
 
 }
 
@@ -167,7 +169,7 @@ footer {
     background-color: #179D9A;
     padding: 1%;
     border-radius: 26px;
-    /* border: aliceblue solid 3px;*/
+    border: black solid 1px;
 }
 
 #imgTeam{
@@ -204,6 +206,16 @@ footer {
     width: 300px;
     height: 600px;
     transform: rotate(4deg);
+    position: absolute;
+    z-index: 50;
+}
+
+#imgIntro1{
+    margin-left: 5%;
+    margin-top: 30%;
+    width: 300px;
+    height: 600px;
+    transform: rotate(-8deg);
     position: absolute;
     z-index: 50;
 }
