@@ -1,5 +1,7 @@
 body {
     background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 footer {
@@ -13,6 +15,22 @@ footer {
     z-index: 100;
 }
 
+#screenshots {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
 .navbar {
     width: 100%;
     position: fixed;
@@ -20,12 +38,13 @@ footer {
     background-color: #00928F;
     z-index: 100;
 }
-.nav-link{
+
+.nav-link {
     font-size: 25px;
     color: #f6c289;
 }
 
-.nav-link.navText{
+.nav-link.navText {
     font-size: 35px;
     color: #9ef5f4;
     margin: 0 auto;
@@ -33,29 +52,33 @@ footer {
     font-family: 'Signpainter', cursive, 'serif';
 }
 
-.nav-link.navText:hover{
+.nav-link.navText:hover {
     color: #9ef5f4;
     font-size: 45px;
-
 }
 
-.navbar-nav{
+.navbar-nav {
     position: absolute;
     right: 5%;
 }
 
-.text-uppercase,.fw-bold,.mb-4{
+.text-uppercase,
+.fw-bold,
+.mb-4 {
     color: #76593bb8;
     text-decoration: none;
 }
 
-
-.me-5.d-none.d-lg-block,.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,.text-uppercase.fw-bold.mb-4,.text-reset,.text-center.p-4{
+.me-5.d-none.d-lg-block,
+.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,
+.text-uppercase.fw-bold.mb-4,
+.text-reset,
+.text-center.p-4 {
     color: #7C5E40;
     text-decoration: none;
 }
 
-.fab{
+.fab {
     color: #7C5E40;
 }
 
@@ -65,25 +88,30 @@ footer {
     font-size: 90px !important;
     font-family: 'Signpainter', cursive, 'serif';
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: #7C5E40;
     text-shadow: 5px 5px 8px #f6c289;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #7C5E40;
 }
+
 #stores {
-   text-align: center;
-   /*background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);*/
+    text-align: center;
+    /*background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);*/
 }
-#android:hover{
-    cursor: not-allowed;    
+
+#android:hover {
+    cursor: not-allowed;
 }
-#ios:hover{
+
+#ios:hover {
     cursor: pointer;
 }
 
-#imageProfile{
+#imageProfile {
     margin: 80px;
     margin-top: 200px;
     width: 300px;
@@ -94,7 +122,7 @@ footer {
     height: 140px;
 }
 
-#intro{
+#intro {
     background-color: blue;
 }
 

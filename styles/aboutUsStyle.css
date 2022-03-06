@@ -1,5 +1,7 @@
 body {
     background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 footer {
@@ -11,7 +13,6 @@ footer {
     margin-bottom: 0px;
     background-color: #f6c289;
     z-index: 100;
-    
 }
 
 .navbar {
@@ -21,12 +22,13 @@ footer {
     background-color: #00928F;
     z-index: 100;
 }
-.nav-link{
+
+.nav-link {
     font-size: 25px;
     color: #f6c289;
 }
 
-.nav-link.navText{
+.nav-link.navText {
     font-size: 35px;
     color: #9ef5f4;
     margin: 0 auto;
@@ -34,33 +36,35 @@ footer {
     font-family: 'Signpainter', cursive, 'serif';
 }
 
-.nav-link.navText:hover{
+.nav-link.navText:hover {
     color: #9ef5f4;
     font-size: 45px;
-
 }
 
-
-.navbar-nav{
+.navbar-nav {
     position: absolute;
     right: 5%;
 }
 
-.text-uppercase,.fw-bold,.mb-4{
+.text-uppercase,
+.fw-bold,
+.mb-4 {
     color: #76593bb8;
     text-decoration: none;
 }
 
-.me-5.d-none.d-lg-block,.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,.text-uppercase.fw-bold.mb-4,.text-reset,.text-center.p-4{
+.me-5.d-none.d-lg-block,
+.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4,
+.text-uppercase.fw-bold.mb-4,
+.text-reset,
+.text-center.p-4 {
     color: #7C5E40;
     text-decoration: none;
 }
 
-.fab{
+.fab {
     color: #7C5E40;
 }
-
-
 
 .navbar-brand {
     color: #f6c289;
@@ -68,26 +72,27 @@ footer {
     font-size: 90px !important;
     font-family: 'Signpainter', cursive, 'serif';
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: #7C5E40;
     text-shadow: 5px 5px 8px #f6c289;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #7C5E40;
 }
 
-.nav-link:visited{
+.nav-link:visited {
     text-decoration: underline;
 }
+
 #stores {
-   text-align: center;
-   margin-left: 2%;
-   margin-bottom: 2%;
-   
-   
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
-#storesText{
+#storesText {
     display: block;
     margin-left: -2%;
     font-family: 'Signpainter', cursive, 'serif';
@@ -95,21 +100,19 @@ footer {
     font-size: x-large;
 }
 
-#android:hover{
-    cursor: not-allowed;    
+#android:hover {
+    cursor: not-allowed;
 }
-#ios:hover{
+
+#ios:hover {
     cursor: pointer;
 }
-
-
-
 
 #logo {
     height: 140px;
 }
 
-#intro{
+#intro {
     background-color: blue;
 }
 
@@ -136,7 +139,7 @@ footer {
     cursor: pointer;
 }
 
-#cuadroInfo{
+#cuadroInfo {
     display: inline-block;
     /*margin: 10%;*/
     margin-left: 25%;
@@ -146,10 +149,9 @@ footer {
     padding: 2%;
     border-radius: 26px;
     border: black solid 2px;
-
 }
 
-#cuadroInfo2{
+#cuadroInfo2 {
     display: inline;
     /* margin: 10%; */
     margin-left: 25%;
@@ -158,10 +160,7 @@ footer {
     background-color: #179D9A;
     padding: 2%;
     border-radius: 26px;
-    
-
 }
-
 
 #cuadroFoto {
     display: inline-flex;
@@ -177,7 +176,7 @@ footer {
 
 #cuadroFoto1 {
     display: inline-flex;
-    margin: 54px; 
+    margin: 54px;
     /*margin-left: 2%;*/
     /* margin-top: 40%; */
     width: 14%;
@@ -187,12 +186,11 @@ footer {
     border: black solid 1px;
 }
 
-#imgTeam{
+#imgTeam {
     width: 100%;
     border-radius: 50%;
     /*margin-left: 20%;/*
     /*border: black solid 3px;*/
-
 }
 
 #textoFoto {
@@ -204,7 +202,7 @@ footer {
     font-family: 'Signpainter', cursive, 'serif';
 }
 
-#textoTittle{
+#textoTittle {
     margin-top: 5%;
     margin-bottom: -10%;
     font-weight: bold;
@@ -215,7 +213,7 @@ footer {
     text-decoration: underline;
 }
 
-#imgIntro{
+#imgIntro {
     margin-left: 6%;
     margin-top: 15%;
     width: 300px;
@@ -225,7 +223,7 @@ footer {
     z-index: 50;
 }
 
-#imgIntro1{
+#imgIntro1 {
     margin-left: 5%;
     margin-top: 30%;
     width: 300px;
@@ -235,7 +233,7 @@ footer {
     z-index: 50;
 }
 
-#textoTittle1{
+#textoTittle1 {
     margin-top: 10%;
     margin-bottom: 5%;
     font-weight: bold;
@@ -245,7 +243,7 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
-    
+
 
 /*#cuadroMapa{
     display: inline-block;
@@ -259,7 +257,6 @@ footer {
 
 }*/
 
-
 #cuadroMapa {
     display: inline-block;
     margin: 10%;
@@ -272,18 +269,16 @@ footer {
     /* border: #7C5E40 solid 1px; */
 }
 
-
-.mapacanvas{
+.mapacanvas {
     overflow: hidden;
     background: none!important;
     height: 545px;
     width: 719px;
     border-radius: 10px;
-    border: 1px
-    black solid;
+    border: 1px black solid;
 }
 
-.textoMapa{
+.textoMapa {
     font-weight: bold;
     font-size: 35px;
     font-family: 'Signpainter', cursive, 'serif';
@@ -291,11 +286,3 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
