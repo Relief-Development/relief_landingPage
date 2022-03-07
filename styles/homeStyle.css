@@ -126,6 +126,32 @@ footer {
     background-color: blue;
 }
 
+#Description{ 
+    width: 30%;
+    height: 15%;
+    display: block;
+    margin-left: 44%;
+    margin-top: -26%;
+
+}
+
+#introText{
+    display: block;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 20%;
+    font-size: 93%;
+    font-family: 'Signpainter', cursive, 'serif';
+    color: #7C5E40;
+}
+
+#nubeText{
+    width: 100%;
+    margin-left: 15%;
+    display: flex;
+}
+
 #tittleHead {
     display: inline-block;
     margin-left: 20px;

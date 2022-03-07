@@ -179,7 +179,7 @@ footer {
     margin: 54px;
     /*margin-left: 2%;*/
     /* margin-top: 40%; */
-    width: 14%;
+    width: 12%;
     background-color: #179D9A;
     padding: 1%;
     border-radius: 197px;
@@ -195,9 +195,9 @@ footer {
 
 #textoFoto {
     display: list-item;
-    margin-left: 3%;
+    margin-left: 0%;
     margin-top: 13%;
-    font-size: 150%;
+    font-size: 124%;
     position: absolute;
     font-family: 'Signpainter', cursive, 'serif';
 }
@@ -214,20 +214,20 @@ footer {
 }
 
 #imgIntro {
-    margin-left: 6%;
+    margin-left: 4%;
     margin-top: 15%;
-    width: 300px;
-    height: 600px;
+    width: 18%;
+    height: 72%;
     transform: rotate(4deg);
     position: absolute;
     z-index: 50;
 }
 
 #imgIntro1 {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 30%;
-    width: 300px;
-    height: 600px;
+    width: 18%;
+    height: 72%;
     transform: rotate(-8deg);
     position: absolute;
     z-index: 50;
@@ -272,8 +272,8 @@ footer {
 .mapacanvas {
     overflow: hidden;
     background: none!important;
-    height: 545px;
-    width: 719px;
+    height: 75%;
+    width: 100%;
     border-radius: 10px;
     border: 1px black solid;
 }
