@@ -127,23 +127,27 @@ footer {
 }
 
 #Description{ 
-    width: 30%;
-    height: 15%;
-    display: block;
-    margin-left: 44%;
-    margin-top: -26%;
-
+    display: inline-flex;
+    width: 31%;
+    background-color: #179D9A;
+    padding: 1%;
+    border-radius: 26px;
+    border: black solid 2px;
+    position: absolute;
+    left: 46%;
+    top: 55%;
+    margin-top: 2%;
 }
 
 #introText{
-    display: block;
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 5%;
-    width: 20%;
+    display: inline-flex;
+    /* position: absolute; */
+    /* margin-left: 10%; */
+    /* margin-top: 5%; */
+    /* width: 50%; */
     font-size: 124%;
     font-family: 'Signpainter', cursive, 'serif';
-    color: #7C5E40;
+    color: #9ef5f4;
 }
 
 #nubeText{
@@ -175,3 +179,19 @@ footer {
 #footerState:hover {
     cursor: pointer;
 }
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+/* Hacer un responsive a partir de 1130x976 para poner el cuadro de texto debajo de los enlaces
+colocar tambien enlaces para que estén juntos.
+
+A partir de 994x976 los headers de home y about us desaparecen, faltaria colocarlos y quitar 
+el texto del titulo o ponerlo debajo de "RELIEF", quiza las imágenes de los móviles deberían 
+hacerse mas pequeñas o colocarse mejor.
+
+A partir de 500x976 hacer otro más para poder adaptarse a pantallas verticales pequeñas
+o para móviles, el cuadro de texto debajo de los enlaces y las imagenes de los moviles
+que esten centradas y no tan super puestas
