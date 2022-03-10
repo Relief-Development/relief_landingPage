@@ -299,11 +299,15 @@ a {
     height: 90%;
 
 }
-                            /*PRUEBA CARROUSEL*/
+                            /*FIN PRUEBA CARROUSEL*/
 
 
 
-/* Hacer un responsive a partir de 1130x976 para poner el cuadro de texto debajo de los enlaces
+/*
+
+EL MAYOR PROBLEMA PARA RESPONSIVE ES AJUSTAR EL CARROUSEL***
+
+ Hacer un responsive a partir de 1130x976 para poner el cuadro de texto debajo de los enlaces
 colocar tambien enlaces para que estén juntos.
 
 A partir de 994x976 los headers de home y about us desaparecen, faltaria colocarlos y quitar 
