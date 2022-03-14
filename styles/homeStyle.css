@@ -100,7 +100,11 @@ footer {
 
 #stores {
     text-align: center;
-    /*background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%);*/
+    /* background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%); */
+    margin-bottom: 70px;
+    position: relative;
+    left: 320px;
+    bottom: 400px;
 }
 
 #android:hover {
@@ -138,9 +142,9 @@ footer {
     border-radius: 26px;
     border: black solid 2px;
     position: absolute;
-    left: 46%;
-    top: 55%;
-    margin-top: 2%;
+    left: 50%;
+    top: 20%;
+    margin-top: 5%;
 }
 
 #introText{
@@ -188,9 +192,12 @@ a {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    /* margin: auto; */
+    display: inline-block;
+    margin-left: 470px;
+    margin-top: 40px;
 }
 
 /* Make the images invisible by default */
@@ -251,12 +258,20 @@ a {
 }
 
 /* The circles or bullets and indicators */
+
+.dotsLine {
+    position: absolute;
+    left: 630px;
+    bottom: 130px;
+
+}
+
 .dots {
   cursor: pointer;
   height: 16px;
   width: 16px;
   margin: 0 3px;
-  background-color: #00928F;
+  background-color: #717161; 
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
@@ -265,7 +280,7 @@ a {
 }
 
 .enable, .dots:hover {
-  background-color: #717161;
+  background-color: #00928F;
 }
 
 /* Faint animation */
