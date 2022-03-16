@@ -98,6 +98,45 @@ footer {
     color: #7C5E40;
 }
 
+.Burger {
+
+    text-align: center;
+    -webkit-text-stroke-width: medium;
+    
+    padding: 14px;
+    position: absolute;
+    top: 112px;
+    display: inline-flex;
+}
+
+.burgerHome{
+
+
+    margin-right: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+    display: none;
+    color: #f6c289;
+
+}
+
+.burgerHome:hover {
+    color: #7C5E40;
+    text-shadow: 5px 5px 8px #f6c289;
+}
+
+.burgerUs{
+    text-decoration: none;
+    display: none;
+    color: #f6c289;
+
+}
+
+.burgerUs:hover {
+    color: #7C5E40;
+    text-shadow: 5px 5px 8px #f6c289;
+}
+
 #stores {
     text-align: center;
     /* background: repeating-linear-gradient(to bottom, #9ef5f4 0%, #f6c289 100%); */
@@ -425,12 +464,27 @@ que esten centradas y no tan super puestas */
 
   .dotsLine {
     left: 190px;
-    bottom: 760px;
+    bottom: 130px;
   }
 
   .fade:not(.show) {
     opacity: 1;
     width: 43%;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 992px){
+  .burgerHome {
+    display: inline-flex;
+
+  }
+
+  .burgerUs {
+    display: inline-flex;
+
   }
 
 }
@@ -464,12 +518,21 @@ que esten centradas y no tan super puestas */
   .dotsLine {
     left: 239px;
     /*bottom: -358px*/
-    bottom: 760px;
+    bottom: -350px;
   }
 
   .fade:not(.show) {
     opacity: 1;
     width: 73%;
+  }
+
+  .burgerHome {
+    display: inline-flex;
+  }
+
+  .burgerUs {
+    display: inline-flex;
+    
   }
 
 }

@@ -23,6 +23,46 @@ footer {
     z-index: 100;
 }
 
+.Burger {
+
+    text-align: center;
+    -webkit-text-stroke-width: medium;
+    color: #f6c289;
+    padding: 14px;
+    position: absolute;
+    top: 112px;
+    display: inline-flex;
+}
+
+.burgerHome{
+
+
+    margin-right: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    display: none;
+    color: #f6c289;
+
+}
+
+.burgerHome:hover {
+    color: #7C5E40;
+    text-shadow: 5px 5px 8px #f6c289;
+}
+
+.burgerUs{
+    text-decoration: underline;
+    display: none;
+    color: #f6c289;
+
+}
+
+.burgerUs:hover {
+    color: #7C5E40;
+    text-shadow: 5px 5px 8px #f6c289;
+}
+}
+
 .nav-link {
     font-size: 25px;
     color: #f6c289;
@@ -469,6 +509,18 @@ meter mas margin bottom en los enlaces del final
 **FALTARIA PODER MOVER O CREAR HAMBURGUESA PARA NAVEGACION HOME ABOUT US**
             ->550x076<-*/
 
+@media screen and (max-width: 992px){
+  .burgerHome {
+    display: inline-flex;
+  }
+
+  .burgerUs {
+    display: inline-flex;
+
+  }
+
+}
+
 @media screen and (max-width: 800px) /*and (max-height: 800px)*/{
 
   #cuadroInfo {
@@ -547,4 +599,13 @@ meter mas margin bottom en los enlaces del final
         margin-left: 2%;
         margin-bottom: 10%;
     }
+
+    .burgerHome {
+    display: inline-flex;
+  }
+
+  .burgerUs {
+    display: inline-flex;
+    
+  }
 }
