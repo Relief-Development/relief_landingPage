@@ -414,16 +414,18 @@ que esten centradas y no tan super puestas */
 
     left: 485px;
     width: 50px;
-    bottom: 310px;
+    bottom: 630px;
   }
 
   .slideshow-container {
 
     margin-left: 28px;
+    margin-bottom: 440px;
   }
 
   .dotsLine {
     left: 190px;
+    bottom: 760px;
   }
 
   .fade:not(.show) {
@@ -434,7 +436,7 @@ que esten centradas y no tan super puestas */
 }
 
 
-@media screen and (max-width: 800px) /*and (max-height: 800px)*/{
+@media screen and (max-width: 800px) and (max-height: 700px){
 
    #Description {
     
@@ -448,7 +450,7 @@ que esten centradas y no tan super puestas */
 
     width: 50px;
     left: 145px;
-    bottom: 650px;
+    /*bottom: 650px;*/
 
   }
 
@@ -461,8 +463,8 @@ que esten centradas y no tan super puestas */
 
   .dotsLine {
     left: 239px;
-    bottom: -358px;
-
+    /*bottom: -358px*/
+    bottom: 760px;
   }
 
   .fade:not(.show) {
