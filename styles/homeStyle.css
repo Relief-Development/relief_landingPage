@@ -331,4 +331,143 @@ hacerse mas pequeñas o colocarse mejor.
 
 A partir de 500x976 hacer otro más para poder adaptarse a pantallas verticales pequeñas
 o para móviles, el cuadro de texto debajo de los enlaces y las imagenes de los moviles
-que esten centradas y no tan super puestas
+que esten centradas y no tan super puestas */
+
+
+@media screen and (max-width: 1700px){
+
+  #Description {
+    
+    left: 60%;
+    
+  }
+
+  #stores {
+
+    left: 410px;
+  }
+
+  .slideshow-container {
+
+    margin-left: 300px;
+  }
+
+  .dotsLine {
+    left: 462px;
+  }
+
+  .fade:not(.show) {
+    opacity: 1;
+    width: 28%;
+  }
+
+}
+
+/*
+
+**FALTARIA PODER MOVER O CREAR HAMBURGUESA PARA NAVEGACION HOME ABOUT US**
+            ->994x976<-*/
+
+@media screen and (max-width: 1300px) /*(max-height: 800px)*/{
+
+    #Description {
+    
+    left: 50%;
+    
+  }
+
+  #stores {
+
+    left: 285px;
+  }
+
+  .slideshow-container {
+
+    margin-left: 160px;
+  }
+
+  .dotsLine {
+    left: 322px;
+  }
+
+  .fade:not(.show) {
+    opacity: 1;
+    width: 33%;
+  }
+
+}
+
+/*
+
+**FALTARIA PODER MOVER O CREAR HAMBURGUESA PARA NAVEGACION HOME ABOUT US**
+            ->550x076<-*/
+
+@media screen and (max-width: 1100px) /*and (max-height: 800px)*/{
+
+   #Description {
+    
+    left: 50%;
+    
+  }
+
+  #stores {
+
+    left: 485px;
+    width: 50px;
+    bottom: 310px;
+  }
+
+  .slideshow-container {
+
+    margin-left: 28px;
+  }
+
+  .dotsLine {
+    left: 190px;
+  }
+
+  .fade:not(.show) {
+    opacity: 1;
+    width: 43%;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) /*and (max-height: 800px)*/{
+
+   #Description {
+    
+    left: 15%;
+    width: 400px;
+    top: 260px;
+    
+  }
+
+  #stores {
+
+    width: 50px;
+    left: 145px;
+    bottom: 650px;
+
+  }
+
+  .slideshow-container {
+
+    margin-bottom: 251px;
+    margin-left: 68px;
+    top: 491px;
+  }
+
+  .dotsLine {
+    left: 239px;
+    bottom: -358px;
+
+  }
+
+  .fade:not(.show) {
+    opacity: 1;
+    width: 73%;
+  }
+
+}
