@@ -60,7 +60,7 @@ footer {
 .burgerUs:hover {
     color: #7C5E40;
     text-shadow: 5px 5px 8px #f6c289;
-}
+
 }
 
 .nav-link {
@@ -116,6 +116,11 @@ footer {
 .navbar-brand:hover {
     color: #7C5E40;
     text-shadow: 5px 5px 8px #f6c289;
+}
+
+.nav-link {
+    font-size: 25px;
+    color: #f6c289;
 }
 
 .nav-link:hover {
