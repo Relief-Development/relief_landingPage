@@ -536,3 +536,35 @@ que esten centradas y no tan super puestas */
   }
 
 }
+
+
+@media screen and (max-width: 1440px) and (max-height: 720px){ /*1400x713 mac botana*/
+
+    #Description {
+    
+    left: 50%;
+    
+  }
+
+  #stores {
+
+    left: 285px;
+  }
+
+  .slideshow-container {
+
+    margin-left: 160px;
+  }
+
+  .dotsLine {
+    left: 322px;
+    top: 810px;
+  }
+
+  .fade:not(.show) {
+    opacity: 1;
+    width: 30%;
+  }
+
+
+}
