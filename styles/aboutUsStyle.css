@@ -294,17 +294,6 @@ footer {
 }
 
 
-/*#cuadroMapa{
-    display: inline-block;
-    margin: 10%;
-    margin-left: 25%;
-    margin-top: 15%;
-    width: 50%;
-    background-color: #7C5E40;
-    padding: 4%;
-    border-radius: 26px;
-
-}*/
 
 #cuadroMapa {
     display: inline-block;
@@ -312,10 +301,8 @@ footer {
     margin-left: 27%;
     width: 46%;
     height: 815px;
-    /*background-color: #f6c289;*/
     padding: 4%;
     border-radius: 26px;
-    /* border: #7C5E40 solid 1px; */
 }
 
 .mapacanvas {
@@ -335,8 +322,6 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
-
-
 
 
 
@@ -526,7 +511,7 @@ meter mas margin bottom en los enlaces del final
 
 }
 
-@media screen and (max-width: 800px) /*and (max-height: 800px)*/{
+@media screen and (max-width: 800px) {
 
   #cuadroInfo {
     display: inline-block;
@@ -610,6 +595,161 @@ meter mas margin bottom en los enlaces del final
   }
 
   .burgerUs {
+    display: inline-flex;
+    
+  }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 720px){ /*1400x713 mac botana */
+
+    #cuadroFoto1 {
+        
+        margin-left: 6%;
+        width: 9%;
+
+    }
+
+
+    #cuadroMapa {
+    
+        margin-left: 21%;
+    
+    }   
+
+
+    #imgIntro1 {
+        
+        height: 65%;
+        
+    }
+
+    #imgIntro {
+        
+        height: 65%;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width: 1200px) and (max-height: 720px){
+
+    
+
+    #cuadroMapa {
+        margin-left: 30%;
+    }
+
+    .textoMapa {
+        
+        margin-left: -25px;
+    }
+
+    #cuadroFoto1 {
+        margin-left: 4.5%;
+        width: 10%;
+        
+    }
+
+    #imgIntro1 {
+
+        width: 15%;
+        height: 50%;
+        top: 70%;
+    }
+
+    #imgIntro {
+        
+        width: 15%;
+        height: 50%;
+        bottom: 20%;
+
+    }
+}
+
+
+@media screen and (max-width: 992px) and (max-height: 720px){
+  
+  #cuadroMapa {
+        margin-left: 30%;
+    }
+
+    .textoMapa {
+        
+        margin-left: -25px;
+    }
+
+    #cuadroFoto1 {
+        margin-left: 4.5%;
+        width: 10%;
+        
+    }
+
+    #imgIntro1 {
+
+        width: 15%;
+        height: 50%;
+        top: 70%;
+    }
+
+    #imgIntro {
+        
+        width: 15%;
+        height: 50%;
+        bottom: 20%;
+
+    }
+
+}
+
+@media screen and (max-width: 800px) and (max-height: 720px){
+
+  
+
+    
+
+    #imgIntro1 {
+        
+        display: none;
+    }
+
+    #cuadroFoto1 {
+        margin: 54px;
+        margin-left: 15%;
+        width: 22%;
+        
+    }
+
+    
+
+    #imgTeam {
+        width: 95px;
+        border-radius: 50%;
+    }
+
+    #cuadroMapa {
+    
+        margin-left: 25%;
+    
+    } 
+
+    .textoMapa {
+
+        margin-left: -40%;
+
+}
+
+    
+    
+
+    .burgerHome {
+
+    display: inline-flex;
+  }
+
+    .burgerUs {
+
     display: inline-flex;
     
   }
