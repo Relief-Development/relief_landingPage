@@ -73,7 +73,7 @@ footer {
     color: #9ef5f4;
     margin: 0 auto;
     cursor: none;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
 }
 
 .nav-link.navText:hover {
@@ -110,7 +110,7 @@ footer {
     color: #f6c289;
     margin-left: 40px;
     font-size: 90px !important;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
 }
 
 .navbar-brand:hover {
@@ -140,7 +140,7 @@ footer {
 #storesText {
     display: block;
     margin-left: -2%;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     color: #14928F;
     font-size: x-large;
 }
@@ -168,7 +168,7 @@ footer {
 #tittleHead {
     display: inline-block;
     margin-left: 20px;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     font-size: 60px;
     color: #9EF5F4;
 }
@@ -248,7 +248,7 @@ footer {
     margin-top: 13%;
     font-size: 130%;
     position: absolute;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
 }
 
 #textoTittle {
@@ -256,7 +256,7 @@ footer {
     margin-bottom: -10%;
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     color: #179D9A;
     text-align: center;
     text-decoration: underline;
@@ -287,7 +287,7 @@ footer {
     margin-bottom: 5%;
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     color: #179D9A;
     text-align: center;
     text-decoration: underline;
@@ -317,7 +317,7 @@ footer {
 .textoMapa {
     font-weight: bold;
     font-size: 35px;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     color: #7C5E40;
     text-align: center;
     text-decoration: underline;
@@ -340,10 +340,7 @@ hacerse mas pequeñas o colocarse mejor. Ajustar imagenes y nombres team
         margin: 54px;
         margin-left: 4%;
         width: 10%;
-        background-color: #179D9A;
-        padding: 1%;
-        border-radius: 197px;
-        border: black solid 1px;
+        
     }
 
     #textoFoto {
@@ -352,7 +349,6 @@ hacerse mas pequeñas o colocarse mejor. Ajustar imagenes y nombres team
         margin-top: 10%;
         font-size: 130%;
         position: absolute;
-        font-family: 'Signpainter', cursive, 'serif';
     }
 
     #stores {
@@ -366,17 +362,13 @@ hacerse mas pequeñas o colocarse mejor. Ajustar imagenes y nombres team
         background: none!important;
         height: 78%;
         width: 132%;
-        border-radius: 10px;
-        border: 1px black solid;
+        
     }
 
     .textoMapa {
-        font-weight: bold;
         font-size: 35px;
-        font-family: 'Signpainter', cursive, 'serif';
-        color: #7C5E40;
+        
         text-align: center;
-        text-decoration: underline;
         width: 700px;
     }
 
@@ -385,9 +377,7 @@ hacerse mas pequeñas o colocarse mejor. Ajustar imagenes y nombres team
         margin-top: 20%;
         width: 15%;
         height: 52%;
-        transform: rotate(-8deg);
-        position: absolute;
-        z-index: 50;
+        
     }
 
     #imgIntro {
@@ -405,10 +395,7 @@ hacerse mas pequeñas o colocarse mejor. Ajustar imagenes y nombres team
         margin-left: 25%;
         margin-top: 20%;
         width: 50%;
-        background-color: #179D9A;
-        padding: 2%;
-        border-radius: 26px;
-        border: black solid 2px;
+        
     }
 
 }
@@ -440,10 +427,7 @@ el texto del titulo o ponerlo debajo de "RELIEF",
     .textoMapa {
         font-weight: bold;
         font-size: 35px;
-        font-family: 'Signpainter', cursive, 'serif';
-        color: #7C5E40;
-        text-align: center;
-        text-decoration: underline;
+        
         width: 450px;
     }
 
@@ -462,20 +446,16 @@ el texto del titulo o ponerlo debajo de "RELIEF",
         display: list-item;
         margin-top: 13%;
         font-size: 130%;
-        position: absolute;
-        font-family: 'Signpainter', cursive, 'serif';
+        
     }
 
     #imgIntro1 {
         margin-left: 3%;
         width: 155px;
         height: 320px;
-        transform: rotate(-8deg);
-        position: absolute;
-        z-index: 50;
+        
         bottom: 0px;
 
-        /*position: relative;*/
         
     }
 
@@ -484,9 +464,7 @@ el texto del titulo o ponerlo debajo de "RELIEF",
         margin-top: 15%;
         width: 155px;
         height: 320px;
-        transform: rotate(4deg);
-        position: absolute;
-        z-index: 50;
+        
         bottom: 340px;
     }
 }
@@ -518,10 +496,7 @@ meter mas margin bottom en los enlaces del final
     margin-left: 10%;
     margin-top: 60%;
     width: 80%;
-    background-color: #179D9A;
-    padding: 2%;
-    border-radius: 26px;
-    border: black solid 2px;
+    ;
     }
 
     #imgIntro {
@@ -544,18 +519,14 @@ meter mas margin bottom en los enlaces del final
         margin: 54px;
         margin-left: 15%;
         width: 22%;
-        background-color: #179D9A;
-        padding: 1%;
-        border-radius: 197px;
-        border: black solid 1px;
+        
     }
 
     #textoFoto {
         display: list-item;
         margin-top: 20%;
         font-size: 130%;
-        position: absolute;
-        font-family: 'Signpainter', cursive, 'serif';
+        
     }
 
     #imgTeam {
@@ -564,12 +535,7 @@ meter mas margin bottom en los enlaces del final
     }
 
     .textoMapa {
-        font-weight: bold;
         font-size: 35px;
-        font-family: 'Signpainter', cursive, 'serif';
-        color: #7C5E40;
-        text-align: center;
-        text-decoration: underline;
         width: 351px;
         margin-left: -75px;
     }
@@ -579,8 +545,6 @@ meter mas margin bottom en los enlaces del final
         background: none!important;
         height: 546px;
         width: 450px;
-        border-radius: 10px;
-        border: 1px black solid;
         margin-left: -125px;
     }
 

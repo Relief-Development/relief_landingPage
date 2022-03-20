@@ -49,7 +49,7 @@ footer {
     color: #9ef5f4;
     margin: 0 auto;
     cursor: none;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
 }
 
 .nav-link.navText:hover {
@@ -86,7 +86,7 @@ footer {
     color: #f6c289;
     margin-left: 40px;
     font-size: 90px !important;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
 }
 
 .navbar-brand:hover {
@@ -188,12 +188,8 @@ footer {
 
 #introText{
     display: inline-flex;
-    /* position: absolute; */
-    /* margin-left: 10%; */
-    /* margin-top: 5%; */
-    /* width: 50%; */
     font-size: 124%;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     color: #9ef5f4;
 }
 
@@ -201,7 +197,7 @@ footer {
 #tittleHead {
     display: inline-block;
     margin-left: 20px;
-    font-family: 'Signpainter', cursive, 'serif';
+    font-family: 'Signpainter', 'Pacifico';
     font-size: 60px;
     color: #9EF5F4;
 }
@@ -227,7 +223,6 @@ a {
 }
 
                                         /*PRUEBA CARROUSEL*/
-/** {box-sizing:border-box}*/
 
 /* Slideshow container */
 .slideshow-container {
@@ -241,7 +236,6 @@ a {
 
 /* Make the images invisible by default */
 .Containers {
-  /*display: none;*/
   margin: 80px;
   margin-top: 200px;
   width: 300px;
@@ -283,7 +277,7 @@ a {
   bottom: 10px;
   width: 65%;
   text-align: center;
-  font-family: 'Signpainter', cursive, 'serif';
+  font-family: 'Signpainter', 'Pacifico';
   font-size: 150%;
 }
 
