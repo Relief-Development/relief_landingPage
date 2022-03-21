@@ -485,7 +485,25 @@ que esten centradas y no tan super puestas */
 
   .dotsLine {
     left: 190px;
-    bottom: 650px;
+    bottom: 750px;
+  }
+
+}
+
+@media screen and (max-width: 950px) and (max-height: 950px) {
+  .burgerHome {
+    display: inline-flex;
+
+  }
+
+  .burgerUs {
+    display: inline-flex;
+
+  }
+
+  .dotsLine {
+    left: 190px;
+    bottom: 690px;
   }
 
 }
