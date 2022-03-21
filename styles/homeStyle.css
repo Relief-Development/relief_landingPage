@@ -483,14 +483,11 @@ que esten centradas y no tan super puestas */
 
   }
 
-  .dotsLine {
-    left: 190px;
-    bottom: 750px;
-  }
+  
 
 }
 
-@media screen and (max-width: 950px) and (max-height: 950px) {
+@media screen and (max-width: 990px) and (max-height: 1450px) {
   .burgerHome {
     display: inline-flex;
 
@@ -503,7 +500,7 @@ que esten centradas y no tan super puestas */
 
   .dotsLine {
     left: 190px;
-    bottom: 690px;
+    bottom: 590px;
   }
 
 }
