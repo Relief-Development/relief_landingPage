@@ -470,6 +470,8 @@ que esten centradas y no tan super puestas */
 
 }
 
+
+
 @media screen and (max-width: 992px){
   .burgerHome {
     display: inline-flex;
@@ -479,6 +481,11 @@ que esten centradas y no tan super puestas */
   .burgerUs {
     display: inline-flex;
 
+  }
+
+  .dotsLine {
+    left: 190px;
+    bottom: 750px;
   }
 
 }
