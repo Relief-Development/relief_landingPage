@@ -450,6 +450,7 @@ el texto del titulo o ponerlo debajo de "RELIEF",
     }
 
     #imgIntro1 {
+        display: none;
         margin-left: 3%;
         width: 155px;
         height: 320px;
@@ -460,6 +461,7 @@ el texto del titulo o ponerlo debajo de "RELIEF",
     }
 
     #imgIntro {
+        display: none;
         margin-left: 3%;
         margin-top: 15%;
         width: 155px;
@@ -500,12 +502,13 @@ meter mas margin bottom en los enlaces del final
     }
 
     #imgIntro {
-    width: 90px;
-    height: 180px;
-    position: relative;
-    z-index: 50;
-    bottom: 45px;
-    left: 200px;
+        display: none;
+        /*width: 90px;
+        height: 180px;
+        position: relative;
+        z-index: 50;
+        bottom: 45px;
+        left: 200px;*/
 
     }
 
