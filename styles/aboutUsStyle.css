@@ -686,9 +686,7 @@ meter mas margin bottom en los enlaces del final
         margin-left: 15%;
         width: 22%;
         
-    }
-
-    
+    }  
 
     #imgTeam {
         width: 95px;
@@ -697,7 +695,13 @@ meter mas margin bottom en los enlaces del final
 
     #cuadroMapa {
     
-        margin-left: 25%;
+        display: inline-block;
+        margin: 10%;
+        margin-left: 27%;
+        width: 46%;
+        height: 815px;
+        padding: 4%;
+        border-radius: 26px;
     
     } 
 
@@ -705,19 +709,16 @@ meter mas margin bottom en los enlaces del final
 
         margin-left: -40%;
 
-}
-
+    }
     
-    
-
     .burgerHome {
 
     display: inline-flex;
-  }
+    }
 
     .burgerUs {
 
     display: inline-flex;
     
-  }
+    }
 }
